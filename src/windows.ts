@@ -23,7 +23,7 @@ export async function run() {
         if (version == "snapshot") {
             // NOTE: If snapshot, directly assign the newest version.
             // Current newest snaptshot is `29.0.50`.
-            zipPath = "https://alpha.gnu.org/gnu/emacs/pretest/windows/emacs-29/emacs-29.0.50-snapshot-2022-07-18.zip";
+            zipPath = "https://user.fm/files/v2-722287688aab4ea7afbd0a923ab26550/emacs-29.0.50-snapshot-2022-07-18.zip";
         } else {
             switch (dot_ver) {
                 case "23.4":
